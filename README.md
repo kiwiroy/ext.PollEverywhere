@@ -29,12 +29,13 @@ Installation
 
 As per standard mediawiki extensions
 
-# checkout / copy code to extensions/PollEverywhere folder
-# insert the require line to LocalSettings.php
+* checkout / copy code to extensions/PollEverywhere folder
+* insert the require line to LocalSettings.php
+
 ```php
 require_once( "$IP/extensions/PollEverywhere/PollEverywhere.php"  );
 ```
-# possibly edit PollEverywhere.javascript.php to set the $wgHTTPProxy and $wgHTTPTimeout variables
+* possibly edit PollEverywhere.javascript.php to set the $wgHTTPProxy and $wgHTTPTimeout variables
 
 Technicals
 ==========
